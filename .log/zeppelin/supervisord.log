@@ -1,0 +1,13 @@
+2019-11-03 06:16:21,526 CRIT Supervisor running as root (no user in config file)
+2019-11-03 06:16:21,527 INFO Included extra file "/etc/supervisor/conf.d/nginx.conf" during parsing
+2019-11-03 06:16:21,650 INFO RPC interface 'supervisor' initialized
+2019-11-03 06:16:21,651 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-11-03 06:16:21,651 INFO supervisord started with pid 6
+2019-11-03 06:16:22,668 INFO spawned: 'setup' with pid 13
+2019-11-03 06:16:22,694 INFO success: setup entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-11-03 06:16:23,580 INFO spawned: 'nginx' with pid 22
+2019-11-03 06:16:24,583 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-03 06:16:24,694 INFO exited: setup (exit status 0; expected)
+2019-11-03 07:45:25,220 WARN received SIGTERM indicating exit request
+2019-11-03 07:45:25,221 INFO waiting for nginx to die
+2019-11-03 07:45:26,376 INFO stopped: nginx (exit status 0)
